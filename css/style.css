@@ -38,6 +38,19 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Estilos para la navegación */
+nav ul li a {
+    text-decoration: none;
+    color: #EFB810; /* Color inicial (dorado) */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF; /* Cambia a blanco al pasar el cursor */
+}
+
+
 /* Sección Hero */
 #hero {
     text-align: center;
@@ -137,7 +150,8 @@ nav ul li a {
 }
 
 #contacto button:hover {
-    background-color: #b30000;
+    color: #990000;
+    background-color: #EFB810;
 }
 
 
