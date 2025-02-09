@@ -50,20 +50,48 @@ nav ul li a:hover {
     color: #FFFFFF; /* Cambia a blanco al pasar el cursor */
 }
 
-
 /* Sección Hero */
 #hero {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 60px 20px;
+    text-align: left;
 }
 
-#hero h2 {
+/* Contenedor para organizar logo y texto */
+.hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* Estilo para el logo */
+.hero-logo {
+    width: 250px;  /* Ajusta el tamaño del logo */
+    height: 250px;
+    border-radius: 50%;  /* Hace que el logo sea circular */
+    border: 2px solid #EFB810; /* Borde dorado */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+    margin-right: 20px;
+}
+
+/* Texto alineado a la derecha */
+.hero-texto {
+    max-width: 600px;
+}
+
+.hero-texto h2 {
     font-size: 32px;
+    margin: 0 0 10px 0;
 }
 
-#hero p {
+.hero-texto p {
     font-size: 18px;
+    margin: 0;
 }
+
 
 /* Sección Sobre mí */
 #sobre-mi {
